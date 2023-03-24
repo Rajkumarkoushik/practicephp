@@ -1,0 +1,9 @@
+Hamburger menu Javascript.
+
+
+const hamburger = document.querySelector(".menu");
+const items = document.querySelector(".nav-links");
+
+hamburger.addEventListener('click', function(){
+items.classList.toggle("nav-menu");
+})
